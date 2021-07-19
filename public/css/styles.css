@@ -7,6 +7,7 @@ html {
 body {
   height: 100%;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 /* Header Section */
@@ -47,7 +48,7 @@ body {
 }
 
 #divHeader {
-  background-image: url(/images/background.jpeg);
+  background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -131,10 +132,20 @@ h3 {
   padding-bottom: 50px;
   padding-left: 15%;
   padding-right: 15%;
+  text-align: center;
 }
 
-.Purpose-Text {
-  text-align: center;
+.sdgLogo {
+  max-width: 100%;
+  height: auto;
+}
+
+.sdgLogo:hover {
+  opacity: 0.5;
+}
+
+em {
+  color: white;
 }
 
 /* Feature Section */
