@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Header Section */
+/* NavBar */
 #navbarContainer {
   padding-top: 8px;
   padding-left: 6%;
@@ -40,6 +40,8 @@ body {
   margin-right: 100px;
 }
 
+/* Header Section */
+
 #containerHeader {
   padding-top: 8px;
   padding-bottom: 12px;
@@ -48,6 +50,7 @@ body {
 }
 
 #divHeader {
+  background-color: black;
   background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,105 +123,10 @@ h3 {
 }
 
 .image {
-  padding-top: 45px;
-  padding-bottom: 45px;
-}
-
-/* Purpose  */
-#Purpose {
-  background-color: black;
-  margin-top: 12px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 15%;
-  padding-right: 15%;
-  text-align: center;
-}
-
-.sdgLogo {
   max-width: 100%;
-  height: auto;
-}
-
-.sdgLogo:hover {
-  opacity: 0.5;
-}
-
-em {
-  color: white;
-}
-
-/* Feature Section */
-
-.LeftBoxText {
-  border-radius: 28px;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.box {
-  margin-top: 12px;
-  background-color: black;
-  margin-left: 0;
-  margin-right: 0;
+  height: inherit;
   padding-top: 45px;
   padding-bottom: 45px;
-  padding-left: 4.5%;
-  padding-right: 5%;
-}
-
-.RightBoxText {
-  border-radius: 28px;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 435px;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  bottom: 0;
-}
-
-.columm {
-  display: flex;
-  flex-direction: row;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.learnGif {
-  width: 325px;
-  height: 650px;
-}
-
-.NewsFeedGif {
-  width: 325px;
-  height: 650px;
-}
-
-.LearnInfo {
-  position: relative;
-}
-
-h2 {
-  color: white;
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
-  font-size: 29px;
-}
-
-#Info {
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
 }
 
 /* Attributes */
@@ -264,16 +172,98 @@ h4 {
   font-size: 1.5rem;
 }
 
+/* Feature Section */
+
+#featuresdiv {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#featuresBottomDiv {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.gif {
+  text-align: center;
+}
+
+.box {
+  margin-top: 12px;
+  background-color: black;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 4.5%;
+  padding-right: 5%;
+}
+
+.LeftBoxText {
+  border-radius: 28px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.RightBoxText {
+  border-radius: 28px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+
+.learnGif {
+  /* width: 325px;
+  height: 650px; */
+  width: auto;
+  height: auto;
+}
+
+.NewsFeedGif {
+  width: auto;
+  height: auto;
+}
+
+h2 {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 29px;
+}
+
+#Info {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 /* Footer */
 
 #footer {
   background-color: black;
 }
 
+.infoSection {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+
 .container1 {
   padding-left: 6%;
-  padding-top: 25px;
-  padding-bottom: 12px;
 }
 
 #footerName {
@@ -286,25 +276,24 @@ h4 {
   padding-bottom: 0;
 }
 
+#Logo {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  margin-bottom: 0;
+}
+
 .social-icon {
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 12px;
-  margin-right: 7px;
+  margin-right: 10px;
 }
 
 .social-icon:hover {
   color: white;
 }
 
-#Logo {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 100%;
-}
-
 .container2 {
-  /* display: flex; */
   text-align: center;
 }
 
@@ -317,10 +306,11 @@ h4 {
   align-self: flex-end;
   text-align: center;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .container3 {
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: right;
   padding-right: 7%;
 }
@@ -334,11 +324,16 @@ h4 {
   padding-bottom: 0;
 }
 
+#infoLink {
+  margin-bottom: 0;
+}
+
 #Contact {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 17px;
+  margin-bottom: 0;
 }
 
 .support {

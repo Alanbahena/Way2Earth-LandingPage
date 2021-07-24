@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Way2Earth</title>
 
   <!-- Google Fonts -->
@@ -24,8 +25,9 @@
 
   <!-- navbar -->
   <section id="navbar">
-    <div class="container-fluid" id="navbarContainer">
-      <nav class="navbar navbar-expand-lg navbar-light">
+
+      <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+        <div class="container-fluid" id="navbarContainer">
         <a id="brandName" class="navbar-brand" href="">Way2Earth</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,12 +41,13 @@
               <a class="nav-link" href="#feature"> Features </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer"> Contact </a>
+              <a class="nav-link" href="contact.html"> Contact </a>
             </li>
           </ul>
         </div>
+        </div>
       </nav>
-    </div>
+
   </section>
 
   <div class="container-fluid" id="containerHeader">
@@ -54,7 +57,7 @@
       <div class="row" id="divHeader">
         <div class="col-lg-6" id="titleHeader">
           <h1 class"headerText">Let’s find our way back to Earth</h1>
-          <h3>Publish, discover, learn, create habits and lifestyles that could inspire people to make a change for a better future.<br> Get on this journey and start the change. </h3>
+          <h3>Publish, discover, learn, create habits and lifestyles that could inspire people to make a difference for a better future.<br> Get on this journey and start the change. </h3>
 
           <form class="flex" action="/" method="POST">
             <!-- <input type="text" class="form-control name-input" placeholder="First Name" required autofocus> -->
@@ -70,36 +73,28 @@
       </div>
     </section>
 
-    <!-- Purpose Section -->
-
-    <!-- <section id="Purpose">
-      <div class="container-fluid">
-      <h2>"Planet Earth needs our help to overcome issues that are affecting the future of life. Our mission thorough this journey it to build a community that create a blueprint to achieve a better and more sustainable future."</h2>
-      </div>
-    </section> -->
-
     <!-- Attributes Section  -->
 
     <section id="Attributes">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
 
           <div class="col-lg-4 col-md-12 contain">
             <i class="icon fas fa-globe-americas fa-4x"></i>
             <h4>One Mission</h4>
-            <p class="AttributesText">Planet Earth needs our help to overcome issues that are affecting the future of life. </p>
+            <p class="AttributesText">Planet Earth needs our help to overcome circumstances that are affecting the future of life. </p>
           </div>
 
           <div class="col-lg-4 col-md-12 contain">
             <i class="icon fas fa-passport fa-4x"></i>
-            <h4>Manual</h4>
-            <p class="AttributesText">Throughout the Journey, a manual of goals and sources of inspiration will be provided to travelers.</p>
+            <h4>Earth Manual</h4>
+            <p class="AttributesText">Throughout the journey, a manual of goals and sources of inspiration will be provided to travelers.</p>
           </div>
 
           <div class="col-lg-4 col-md-12 contain">
             <i class="icon fas fa-seedling fa-4x"></i>
             <h4>Sustainable Community</h4>
-            <p class="AttributesText">A revolutionary community capable of growing and creating a blueprint to achieve a better and a more sustainable future.</p>
+            <p class="AttributesText">A revolutionary community capable of growing and creating a blueprint to achieve a better and more sustainable future.</p>
           </div>
         </div>
       </div>
@@ -110,24 +105,26 @@
     <section id="feature">
       <div class="box">
         <div class="row" id=featuresdiv>
-          <div class="col-lg-6 col-md-12 columm">
+          <div class="col-xxl-3 col-md-6 col-sm-12 gif">
             <img class="NewsFeedGif" src="gif/Learn.gif" alt="learn gif">
-            <div class="NewsfeedInfo">
+          </div>
+            <div class="col-xxl-3 col-md-6 col-sm-12 NewsfeedInfo">
               <div class="LeftBoxText">
                 <h2>Create your blog</h2>
-                <p id="Info">Publish your articles. Write about your experiences, adventures and knowledge.<br> <br>Many people form different places are changing their habits and lifestyles in order to solve sustainable and social issues.</p>
+                <p id="Info">Publish your articles. Write about your experiences, adventures, and knowledge.<br> <br>Many people from different places are changing their habits and lifestyles in order to solve sustainable and social issues.</p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-12 columm">
-            <div class="LearnInfo">
-              <div class="RightBoxText">
-                <h2>Earth manual</h2>
-                <p id="Info">Sustainable goals will be provided as part of the manual on which travelers can relate  and get inspire to start publishing articles.</p>
+            <div class="container col-xxl-3 col-md-6 col-sm-12 col align-self-end">
+              <div class="LearnInfo">
+                <div class="RightBoxText">
+                  <h2>Earth manual</h2>
+                  <p id="Info">In every journey, a source of compass and direction is needed. <br> <br> Sustainable goals will be provided as part of the manual on which travelers can relate and get inspired to start publishing articles. <br> Videos, Games, Articles and many more ... </p>
+                </div>
               </div>
             </div>
-            <img class="learnGif" src="gif/Explore.gif" alt="learn gif">
-          </div>
+            <div class="col-xxl-3 col-md-6 col-sm-12 gif">
+              <img class="learnGif" src="gif/Explore.gif" alt="learn gif">
+            </div>
         </div>
       </div>
     </section>
@@ -136,71 +133,63 @@
 
     <section id="FeaturesBottom">
       <div class="box">
-
         <div class="row" id="featuresBottomDiv">
-
-          <div class="columm col-lg-6">
-            <div class="gifExplore">
-              <img src="gif/Create_gif.gif" alt="ExploreGif">
-            </div>
-            <div class="ExploreInfo">
-              <div class="LeftBoxText">
-                <h2>Learn</h2>
-                <p id="Info">Learning is our greatest ability, wether you already started the change or not, let’s learn form each other. <br> <br> Our purpose is to create a community were we think beyond ourselves.  </p>
-              </div>
+          <div class="col-xxl-3 col-md-6 col-sm-12 gif">
+            <img src="gif/Create_gif.gif" alt="ExploreGif">
+          </div>
+          <div class="col-xxl-3 col-md-6 col-sm-12 NewsfeedInfo">
+            <div class="LeftBoxText">
+              <h2>Learn</h2>
+                <p id="Info">Learning is our greatest ability, whether you already started the change or not, let’s learn from each other.<br> <br>Our purpose is to create a community where we think beyond ourselves.</p>
             </div>
           </div>
-
-          <div class=" columm col-lg-6">
-            <div class="CreateInfo">
+          <div class="container col-xxl-3 col-md-6 col-sm-12 col align-self-end">
+            <div class="LearnInfo">
               <div class="RightBoxText">
                 <h2>Discover</h2>
-                <p id="Info">Be curious about life, explore different topics, expand and share your knowledge. Travel towards life on earth.</p>
+               <p id="Info">Be curious about life, explore different topics, expand and share your knowledge. Travel towards life on earth and enjoy the joruney.</p>
               </div>
             </div>
-            <div class="gifCreate">
-              <img src="gif/NewsFeed_6.gif" alt="CreateGif">
-            </div>
           </div>
-
-
+          <div class="col-xxl-3 col-md-6 col-sm-12 gif">
+            <img src="gif/NewsFeed_6.gif" alt="CreateGif">
+          </div>
         </div>
       </div>
     </section>
 
-    </div>
+  </div>
 
-    <!-- Footer Section -->
+  <!-- Footer Section -->
 
-    <footer id="footer">
+  <footer id="footer">
 
-      <div class="row">
-        <div class="col-lg-6 col-md-12 container1">
+    <div class="row infoSection">
+
+      <div class="col-lg-6 col align-self-center container1">
         <h3 id="footerName">Way2Earth</h3>
         <p id="Logo">The Journey of a Lifetime, starts on Planet Earth.</p>
-        </div>
-
-        <div class="col-lg-6 col-md-12 container3">
-          <h3 id="MoreInfo">More Info</h3>
-          <div class="row">
-            <a id="Contact" href="contact.html">Contact Us</a>
-            <a id="Contact" href="privacy.html">Privacy Policy</a>
-          </div>
-        </div>
-
       </div>
-      <div class="row">
+
+      <div class="col-lg-6 col align-self-center container3">
+        <h3 id="MoreInfo">More Info</h3>
+          <p id="infoLink"><a id="Contact" href="contact.html">Contact Us</a></p>
+          <p id="infoLink"><a id="Contact" href="privacy.html">Privacy Policy</a></p>
+      </div>
+
+    </div>
+
+    <div class="row">
       <div class="col-lg-12 col-md-12 container2">
-        <!-- <p class="support">Follow the story behind this journey and help us grow our community.</p> -->
-        <a href=""> <i class="social-icon fab fa-facebook-f"></i></a>
-        <a href=""> <i class="social-icon fab fa-twitter"></i></a>
-        <a href=""> <i class="social-icon fab fa-instagram"></i></a>
-        <a href="contact.html"> <i class="social-icon fas fa-envelope"></i></a>
+        <a class="icons" href="https://medium.com/@alanbahena"> <i class="social-icon fab fa-medium fa-2x"></i></a>
+        <a class="icons" href="https://www.instagram.com/way2earth/"> <i class="social-icon fab fa-instagram fa-2x"></i></a>
+        <a class="icons" href=""> <i class="social-icon fab fa-facebook-f fa-2x"></i></a>
+        <a class="icons" href="contact.html"> <i class="social-icon fas fa-envelope fa-2x"></i></a>
         <p id="Copyright">© Copyright 2021 Way2Earth</p>
       </div>
-      </div>
+    </div>
 
-    </footer>
+  </footer>
 
 
 </body>
