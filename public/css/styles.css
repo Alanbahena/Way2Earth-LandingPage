@@ -110,7 +110,6 @@ h3 {
   text-align: center;
   margin-left: 2%;
   margin-right: 6%;
-  /* font-size: 13px;s */
 }
 
 #launchDate {
@@ -228,10 +227,6 @@ h4 {
 }
 
 .learnGif {
-  /* width: 325px;
-  height: 650px; */
-  /* width: auto;
-  height: auto; */
   max-width: 100%;
   height: inherit;
 }
@@ -373,6 +368,10 @@ h2 {
     font-size: 20px;
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
   #launchDate {
     font-size: 14px;
   }
@@ -394,5 +393,13 @@ h2 {
 
   #Copyright {
     font-size: 13px;
+  }
+
+  #Info {
+    font-size: 14px;
+  }
+
+  .container3 {
+    padding-top: 0;
   }
 }
