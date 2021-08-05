@@ -80,7 +80,7 @@ body {
 
 .icons {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .social-icon {
@@ -96,4 +96,18 @@ body {
   line-height: 1.5;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .confirmation {
+    font-size: 40px;
+  }
+
+  .message {
+    font-size: 19px;
+  }
+
+  .support {
+    font-size: 14px;
+  }
 }
